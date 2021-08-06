@@ -1,0 +1,7 @@
+git push origin feature
+git pull --rebase
+
+git checkout -b foo o/main; git pull
+git branch -u o/main foo; git commit; git push;
+
+git push origin <source>:<destination>
