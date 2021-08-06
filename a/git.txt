@@ -5,3 +5,13 @@ git checkout -b foo o/main; git pull
 git branch -u o/main foo; git commit; git push;
 
 git push origin <source>:<destination>
+git push origin main:newBranch
+
+git fetch origin foo
+git fetch origin foo~1:bar
+
+git push origin :foo
+
+git fetch origin :bar
+
+git branch -f 이동할 branch명 위치
